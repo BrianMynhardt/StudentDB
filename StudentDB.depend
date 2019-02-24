@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1551014656 source:c:\users\bdmyn\desktop\work\csc3022h\studentdb\main.cpp
+	<fstream>
+	<iostream>
+	<sstream>
+	<string>
+	<vector>
+	<iterator>
+	<cstdlib>
+
