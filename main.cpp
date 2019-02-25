@@ -14,7 +14,8 @@
 #include "print.h"
 using namespace std;
 
-
+namespace MYNBRI003{
+}
 
 
 

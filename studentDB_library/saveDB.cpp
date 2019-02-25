@@ -1,5 +1,5 @@
 #include "saveDB.h"
-#include "addstudent.h"
+#include "addStudent.h"
 #include <fstream>  // Needed for file stream objects
 #include <iostream> // Needed for console stream objects
 #include <sstream>

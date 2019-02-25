@@ -3,15 +3,15 @@
 CC=g++ #Compiler
 
 Default:
-	$(CC) -c -o driver.o driver.cpp -std=c++11 -I ./factorial_library/ -L ./factorial_library/ -lbrain_dead_factorial
+	$(CC) -c -o main.o main.cpp -std=c++11 -I ./studentDB_library/ -L ./studentDB_library/ -lbrain_dead_studentDB
 	
-	$(CC) -o driver driver.o -std=c++11 -I ./factorial_library/ -L ./factorial_library/ -lbrain_dead_factorial
+	$(CC) -o main main.o -std=c++11 -I ./studentDB_library/ -L ./studentDB_library/ -lbrain_dead_studentDB
 
 run:
-	cd factorial_library && $(MAKE)
+	cd studentDB_library && $(MAKE)
 	make
-	export LD_LIBRARY_PATH=factorial_library/ && ./driver
+	export LD_LIBRARY_PATH=studentDB_library/ && ./main
 
 clean:
-	cd factorial_library && $(MAKE) clean
-	rm -f *.o *.so driver
+	cd studentDB_library && $(MAKE) clean
+	rm -f *.o *.so main

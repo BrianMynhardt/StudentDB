@@ -2,7 +2,7 @@
 #define VIEWSTUDENT_H
 //any includes here
 #include <string>
-#include "records.h"
+
 #include "addStudent.h"
 #include <vector>
 using namespace std;
