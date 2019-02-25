@@ -1,10 +1,96 @@
 # depslib dependency file v1.0
-1551014656 source:c:\users\bdmyn\desktop\work\csc3022h\studentdb\main.cpp
+1551080226 source:c:\users\bdmyn\desktop\work\csc3022h\studentdb\main.cpp
 	<fstream>
 	<iostream>
 	<sstream>
 	<string>
 	<vector>
 	<iterator>
+	<algorithm>
 	<cstdlib>
+	"addStudent.h"
+	"saveDB.h"
+	"readDB.h"
+	"viewStudent.h"
+	"gradeStudent.h"
+	"print.h"
+
+1551018093 source:c:\users\bdmyn\desktop\work\csc3022h\studentdb\checkexists.cpp
+
+1551079051 source:c:\users\bdmyn\desktop\work\csc3022h\studentdb\readdb.cpp
+	"readDB.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<iterator>
+
+1551078797 c:\users\bdmyn\desktop\work\csc3022h\studentdb\readdb.h
+	<vector>
+	<string>
+	"addStudent.h"
+
+1551036004 source:c:\users\bdmyn\desktop\work\csc3022h\studentdb\records.cpp
+	"records.h"
+	<vector>
+
+1551079783 source:c:\users\bdmyn\desktop\work\csc3022h\studentdb\savedb.cpp
+	"saveDB.h"
+	"addstudent.h"
+	<fstream>
+	<iostream>
+	<sstream>
+	<vector>
+	<string>
+	<iterator>
+	"print.h"
+
+1551079311 c:\users\bdmyn\desktop\work\csc3022h\studentdb\savedb.h
+	"addStudent.h"
+	<string>
+	<vector>
+
+1551080951 source:c:\users\bdmyn\desktop\work\csc3022h\studentdb\gradestudent.cpp
+	"gradeStudent.h"
+	<vector>
+	<cstdlib>
+	<iostream>
+	<sstream>
+	<iterator>
+	"print.h"
+
+1551080898 c:\users\bdmyn\desktop\work\csc3022h\studentdb\gradestudent.h
+	<string>
+	<vector>
+	"addStudent.h"
+
+1551078141 source:c:\users\bdmyn\desktop\work\csc3022h\studentdb\addstudent.cpp
+	"addStudent.h"
+
+1551078598 c:\users\bdmyn\desktop\work\csc3022h\studentdb\addstudent.h
+	<string>
+
+1551079951 c:\users\bdmyn\desktop\work\csc3022h\studentdb\viewstudent.h
+	<string>
+	"records.h"
+	"addStudent.h"
+	<vector>
+
+1551080111 source:c:\users\bdmyn\desktop\work\csc3022h\studentdb\viewstudent.cpp
+	"viewStudent.h"
+	<vector>
+	<cstdlib>
+	<iostream>
+	"print.h"
+
+1551022221 c:\users\bdmyn\desktop\work\csc3022h\studentdb\records.h
+
+1551079590 source:c:\users\bdmyn\desktop\work\csc3022h\studentdb\print.cpp
+	"print.h"
+	<string>
+
+1551079521 c:\users\bdmyn\desktop\work\csc3022h\studentdb\print.h
+	<string>
+	"addStudent.h"
 
